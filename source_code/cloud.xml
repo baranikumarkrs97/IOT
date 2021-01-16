@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.prop.iotsensor">
+<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ioticon" android:debuggable="true" android:allowBackup="true">
+<activity android:label="@string/app_name" android:name="com.prop.iotsensor.HomePage">
+<intent-filter>
+<action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+</activity>
+<activity android:name=".SensorActivity" />
+<activity android:name=".ViewSensor" />
+<activity android:name=".MainActivity2" />
+<activity android:name=".CropView" />
+<activity android:name=".CropViewMain" />
+<activity android:name=".CropView1" />
+<activity android:name=".CropView11" />
+<activity android:name=".CropView12" />
+<activity android:name=".CropView2" />
+<activity android:name=".CropView21" />
+<activity android:name=".CropView22" />
+<activity android:name=".MarketPrice" />
+<activity android:name=".MarketPrice1" />
+<activity android:name=".MarketPrice11" />
+<activity android:name=".MarketPrice12" />
+<activity android:name=".MarketPrice13" />
+<activity android:name=".MarketPrice14" />
+<activity android:name=".AgriView" />
+<activity android:name=".AgriView1" />
+<activity android:name=".AgriView11" />
+<activity android:name=".AgriView12" />
+<activity android:name=".AgriView13" />
+<activity android:name=".AgriView14" />
+<activity android:name=".AgriView15" />
+<activity android:name=".AgriView16" />
+<activity android:name=".AgriView17" />
+<activity android:name=".AgriView18" />
+<activity android:name=".AgriView19" />
+<activity android:name=".AgriView20" />
+</application>
+</manifest>
